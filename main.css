@@ -1,0 +1,85 @@
+
+.hero__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFAF5;
+    padding: 40px;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    padding: 5.73rem;
+    gap: 1rem;
+
+}
+
+.hero__left h2{
+    font-size: 33px;
+   
+
+}
+
+.hero__right{
+    display: flex;
+    padding: 1.96rem;
+   
+}
+
+.hero__button{
+    width: 180px;
+    font-size: 1.125rem;
+    background-color: #DB7A4E;
+    border-radius: 1.875rem;
+    padding: .625rem;
+    border: none;
+    
+}
+
+.hero__button a {
+   text-decoration: none;
+   color: white;
+   font-weight: 100;
+}
+
+.hero__img{
+    width: 400px;
+}
+
+.home--page{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.heading__color{
+    color: #335576
+}
+
+.img__container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.75rem;
+}
+
+.home--page__img{
+    width: 330px;
+    height: 440px;
+}
+
+.img__destination{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: static;
+}
+
+.heading__card{
+    position: relative;
+    top: 25.5rem;
+    left: 13.5rem;
+    font-size: 1.5rem;
+    color: white;
+    
+}

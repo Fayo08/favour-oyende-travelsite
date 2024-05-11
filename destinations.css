@@ -1,0 +1,59 @@
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    gap: 6rem;
+}
+
+.section__bg{
+    background-size: cover;
+    
+}
+
+.section__heading{
+    font-size: 4.3125rem;
+    position: relative;
+    color: white;
+    right: 28rem;
+    font-weight: 700;
+
+}
+
+.card__container{
+    display: flex;
+    gap: 4rem;
+    width: 30%;
+    justify-content: center;
+
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    width: 20.625rem;
+    background-color: white;
+    padding: 1.25rem ;
+    border-radius: 2%;
+}
+
+.card__heading{
+    font-size: 1.3125rem;
+    border-bottom: 2px solid black;
+}
+
+.card__item{
+    font-size: 21px;
+    width: 11.25rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #FEFAF5;
+    margin: .5rem;
+    border-radius: 10%;
+}

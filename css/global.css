@@ -40,6 +40,18 @@ body{
 .nav__item a{
     text-decoration: none;
     color: black;
+   
+}
+
+.nav__item {
+    text-decoration: none;
+     background-color: #FFFFFF; ;
+}
+
+.nav__item:hover {
+    text-decoration: none;
+    background-color: rgb(51, 85, 118, 0.2%);
+    
 }
 
 .nav__item--border{
@@ -51,7 +63,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: #FEFAF5;
-    padding: 2.5rem;
+    padding: 3rem;
+    gap: 1.5rem
 
 }
 

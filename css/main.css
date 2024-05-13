@@ -1,91 +1,85 @@
-
-.hero__section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FEFAF5;
-    padding: 40px;
+.hero__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefaf5;
+  padding: 40px;
+  
 }
 
-.hero__left{
-    display: flex;
-    flex-direction: column;
-    padding: 5.73rem;
-    gap: 1rem;
-
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  padding: 5.73rem;
+  gap: 1rem;
 }
 
-.hero__left h2{
-    font-size: 33px;
-   
-
+.hero__left h2 {
+  font-size: 33px;
 }
 
-.hero__right{
-    display: flex;
-    padding: 1.96rem;
-   
+.hero__right {
+  display: flex;
+  padding: 1.96rem;
 }
 
-.hero__button{
-    width: 180px;
-    font-size: 1.125rem;
-    background-color: #DB7A4E;
-    border-radius: 1.875rem;
-    padding: .625rem;
-    border: none;
-    
+.hero__button {
+  width: 180px;
+  font-size: 1.125rem;
+  background-color: #db7a4e;
+  border-radius: 1.875rem;
+  padding: 0.625rem;
+  border: none;
 }
 
 .hero__button a {
-   text-decoration: none;
-   color: white;
-   font-weight: 100;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
 }
 
-.hero__img{
-    width: 400px;
+.hero__img {
+  width: 400px;
 }
 
-.section{
+.section {
     display: flex;
     flex-direction: column;
-    padding: 2.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    flex-wrap: wrap;
 }
 
-.heading__color{
-    color: #335576
+.section__heading{
+  color: #335576;
 }
 
-.card__container{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1.75rem;
+.card__container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 1.75rem;
 }
 
-.card__image{
-    width: 330px;
-    height: 440px;
-    z-index: 1;
-    border-radius: 10px;
-
+.card__image {
+  width: 330px;
+  height: 440px;
+  z-index: 1;
+  border-radius: 10px;
 }
 
-.card__item{
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    position: relative;
-   
+.card__item {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  max-height: 440px;
 }
 
-.card__heading{
-    position: absolute;
-    top: 24.5rem;
-    left: 13.5rem;
-    font-size: 1.5rem;
-    color: white;
-    z-index: 2;
-
-    
+.card__heading {
+  position: absolute;
+  top: 24.5rem;
+  left: 13.5rem;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 2;
 }

@@ -47,7 +47,7 @@
     width: 400px;
 }
 
-.home--page{
+.section{
     display: flex;
     flex-direction: column;
     padding: 2.5rem;
@@ -57,29 +57,35 @@
     color: #335576
 }
 
-.img__container{
+.card__container{
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin: 1.75rem;
 }
 
-.home--page__img{
+.card__image{
     width: 330px;
     height: 440px;
-}
-
-.img__destination{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
     border-radius: 10px;
-    position: static;
+
 }
 
-.heading__card{
+.card__item{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     position: relative;
-    top: 25.5rem;
+   
+}
+
+.card__heading{
+    position: absolute;
+    top: 24.5rem;
     left: 13.5rem;
     font-size: 1.5rem;
     color: white;
+    z-index: 2;
+
     
 }

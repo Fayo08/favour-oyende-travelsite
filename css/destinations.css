@@ -6,10 +6,13 @@
     align-items: center;
     height: 700px;
     gap: 6rem;
+    overflow: hidden;
 }
 
 .section__bg{
     background-size: cover;
+    position: absolute;
+    z-index: -1;
     
 }
 
@@ -33,6 +36,8 @@
 }
 
 .card{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -40,7 +45,7 @@
     width: 20.625rem;
     background-color: white;
     padding: 1.25rem ;
-    border-radius: 2%;
+    
 }
 
 .card__heading{
@@ -49,11 +54,22 @@
 }
 
 .card__item{
+
     font-size: 21px;
     width: 11.25rem;
     text-align: center;
     padding: 1.25rem;
     background-color: #FEFAF5;
+    margin: .5rem;
+    border-radius: 10%;
+}
+
+.card__item:hover{
+    font-size: 21px;
+    width: 11.25rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: rgb(234, 219, 219);
     margin: .5rem;
     border-radius: 10%;
 }
